@@ -55,7 +55,7 @@ class HrEmployeeFamilyInfo(models.Model):
                                  ('daughter', 'Daughter'),
                                  ('son', 'Son'),
                                  ('wife', 'Wife')], string='Relationship', help='Relation with employee')
-    member_contact = fields.Char(string='Contact No', related='employee_ref.personal_mobile', store=True)
+    #member_contact = fields.Char(string='Contact No', related='employee_ref.personal_mobile', store=True)
 
 
 class HrEmployee(models.Model):
