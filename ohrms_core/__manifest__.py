@@ -46,8 +46,7 @@
                 'ohrms_loan_accounting',
                 'ohrms_salary_advance',
                 'hr_reminder',
-                'hr_reward_warning',
-                'hr_theme'],
+                'hr_reward_warning'],
     'data': [
         'views/menu_arrangement_view.xml',
         'views/hr_config_view.xml',
