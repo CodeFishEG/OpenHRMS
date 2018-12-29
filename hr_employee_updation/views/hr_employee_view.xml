@@ -48,7 +48,7 @@
                                 <tree editable="bottom">
                                     <field name="member_name"/>
                                     <field name="relation"/>
-                                    <field name="member_contact"/>
+                                    <!--<field name="member_contact"/>-->
                                 </tree>
                             </field>
                         </group>
