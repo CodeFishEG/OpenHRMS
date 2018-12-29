@@ -92,7 +92,7 @@ class HrEmployee(models.Model):
                         'email_to': i.work_email,
                     }
                     self.env['mail.mail'].create(main_content).send()
-    personal_mobile = fields.Char(string='Mobile', related='address_home_id.mobile', store=True)
+    #personal_mobile = fields.Char(string='Mobile', related='address_home_id.mobile', store=True)
     emergency_contact = fields.One2many('hr.emergency.contact', 'employee_obj', string='Emergency Contact')
     joining_date = fields.Date(string='Joining Date')
     id_expiry_date = fields.Date(string='Expiry Date', help='Expiry date of Identification ID')
